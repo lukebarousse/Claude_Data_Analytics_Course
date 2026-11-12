@@ -1,0 +1,14 @@
+# 🔒 Internal planning (never public)
+planning/
+
+# 🗄️ Datasets (shared through GitHub Releases, not committed)
+*.duckdb
+*.duckdb.wal
+*.parquet
+data/*.csv
+
+# 🧹 Local clutter
+.DS_Store
+.env
+__pycache__/
+.ipynb_checkpoints/
