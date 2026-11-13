@@ -13,6 +13,8 @@ Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025
 
 **[data_jobs.duckdb](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb)** (40.6 MB, DuckDB database), from the [`data-v1` release](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/tag/data-v1).
 
+> ⚠️ The file needs **DuckDB 2.0 or newer**. DuckDB 1.x cannot open it. Check with `duckdb --version`.
+
 You can also paste this link into a Claude chat and ask Claude to download the file and open it:
 
 ```
@@ -21,4 +23,19 @@ https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/d
 
 ## Option 2: Query it in BigQuery
 
-<!-- TODO: public BigQuery dataset name + sandbox setup steps -->
+The same tables are in a public BigQuery dataset: **`datanerd-tech.course_claude`**. Any signed-in Google account can read it. Your queries run in your own project (a free BigQuery sandbox works), so you copy nothing.
+
+```sql
+SELECT COUNT(*) AS postings
+FROM `datanerd-tech.course_claude.job_postings_fact`;
+-- 491140
+```
+
+Every table and column has a description.
+
+<!-- TODO: sandbox setup steps + Claude BigQuery connector steps -->
+
+## Good to know
+
+- `skills_dim`: Hugging Face, IBM Watson and Red Hat each have two `skill_id`s. To count jobs per skill, group by `skills` and use `COUNT(DISTINCT job_id)`.
+- The data is a fixed snapshot. It does not update, so your numbers match the videos.
