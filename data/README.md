@@ -11,9 +11,9 @@ Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025
 
 ## Option 1: Download the file
 
-**[data_jobs.duckdb](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb)** (40.6 MB, DuckDB database), from the [`data-v1` release](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/tag/data-v1).
+**[data_jobs.duckdb](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb)** (47.5 MB, DuckDB database), from the [`data-v1` release](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/tag/data-v1).
 
-> ⚠️ The file needs **DuckDB 2.0 or newer**. DuckDB 1.x cannot open it. Check with `duckdb --version`.
+> The file opens in DuckDB 1.0 or newer.
 
 You can also paste this link into a Claude chat and ask Claude to download the file and open it:
 
