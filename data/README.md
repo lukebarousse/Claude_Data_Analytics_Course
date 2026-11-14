@@ -15,11 +15,13 @@ Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025
 
 > The file opens in DuckDB 1.0 or newer.
 
-You can also paste this prompt into a Claude chat. The short link points to the same file:
+You can also ask Claude to download it. The short link points to the same file:
 
 ```
-Download this DuckDB database and list each table with its row count: https://lukeb.co/claude-data-jobs
+Download this database and list its tables with row counts: lukeb.co/claude-data-jobs
 ```
+
+> Claude Code downloads it. In a Claude chat, Claude's network access can block the download. If it does, allow `lukeb.co`, `github.com` and `release-assets.githubusercontent.com` in your Claude settings, or use Option 2.
 
 ## Option 2: Query it in BigQuery
 
