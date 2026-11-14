@@ -15,10 +15,10 @@ Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025
 
 > The file opens in DuckDB 1.0 or newer.
 
-You can also paste this link into a Claude chat and ask Claude to download the file and open it:
+You can also paste this prompt into a Claude chat. The short link points to the same file:
 
 ```
-https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb
+Download this DuckDB database and list each table with its row count: https://lukeb.co/claude-data-jobs
 ```
 
 ## Option 2: Query it in BigQuery
