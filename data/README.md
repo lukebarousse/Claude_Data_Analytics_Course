@@ -2,6 +2,8 @@
 
 Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025 to June 2026, as a star schema.
 
+Short link to this page: **[lukeb.co/claude-data-files](https://lukeb.co/claude-data-files)**
+
 | Table | Rows | One row is |
 |---|---|---|
 | `job_postings_fact` | 491,140 | a job posting |
