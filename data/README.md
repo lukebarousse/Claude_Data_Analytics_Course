@@ -2,8 +2,6 @@
 
 Job postings for Data Analyst, Data Engineer and Data Scientist roles, July 2025 to June 2026, as a star schema.
 
-Short link to this page: **[lukeb.co/claude-data-files](https://lukeb.co/claude-data-files)**
-
 | Table | Rows | One row is |
 |---|---|---|
 | `job_postings_fact` | 491,140 | a job posting |
@@ -13,7 +11,7 @@ Short link to this page: **[lukeb.co/claude-data-files](https://lukeb.co/claude-
 
 ## Option 1: Download the file
 
-**[data_jobs.duckdb](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb)** (47.5 MB, DuckDB database), from the [`data-v1` release](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/tag/data-v1).
+**[data_jobs.duckdb](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/download/data-v1/data_jobs.duckdb)** (47.5 MB, DuckDB database), from the [`data-v1` release](https://github.com/lukebarousse/Claude_Data_Analytics_Course/releases/tag/data-v1) (short link: [lukeb.co/claude-data-files](https://lukeb.co/claude-data-files)).
 
 > The file opens in DuckDB 1.0 or newer.
 
